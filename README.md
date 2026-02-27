@@ -87,7 +87,7 @@
    + Für Offene Dokumente (id durch CompanyId ersetzen):
       + Request Type: GET   
       + Api Url: https://api.papierlos.de/company-info/id
-      + Browser Url: https://app.papierlos.de/c/{id}/document/list-open-documents
+      + Browser Url: https://app.papierlos.de/c/id/document/list-open-documents
       + Title Prefix: Offene\nDokumente
       + Intervall (Sec): 60
       + JSON Selector: data.attributes.openedDocuments
@@ -95,7 +95,7 @@
    + Unbearbeite Dokumente:
       + Request Type: GET 
       + Api Url: https://api.papierlos.de/company-info/id
-      + Browser Url: https://app.papierlos.de/c/{id}/document/list-unprocessed-documents
+      + Browser Url: https://app.papierlos.de/c/id/document/list-unprocessed-documents
       + Title Prefix: Unbearbeitete\nDokumente
       + Intervall (Sec): 60
       + JSON Selector: data.attributes.unprocessedDocuments
@@ -103,7 +103,7 @@
    + Nicht abgerechnete Rechnungen
       + Request Type: GET 
       + Api Url: https://api.papierlos.de/company-info/id
-      + Browser Url: https://app.papierlos.de/c/{id}/invoices
+      + Browser Url: https://app.papierlos.de/c/id/invoices
       + Title Prefix: Nicht\nabgerechnete\nRechnungen
       + Intervall (Sec): 60
       + JSON Selector: data.attributes.notBilledInvoices
