@@ -1,5 +1,10 @@
 # Anleitung für Linux, Windows und Mac
 
+## Streamdeck Software installieren
+
++ Windows/Mac: https://www.elgato.com/de/de/s/downloads
++ Linux: https://github.com/nekename/OpenDeck
+
 ## API Monkey Plugin installieren:
 
    Das Plugin ist sowohl für OpenDeck, als auch im offiziellen Elgato-Store kostenlos erhältlich.
